@@ -1,4 +1,4 @@
-javaCopyEdit package utils;
+package utils;
 
 public final class Constants {
     private Constants() {}
