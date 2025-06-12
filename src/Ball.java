@@ -1,4 +1,7 @@
+javaCopyEdit;
 import static utils.Constants.*;
+
+
 
 public class Ball extends Sprite {
     private static final String BALL_IMAGE_PATH = ;
@@ -11,17 +14,9 @@ public class Ball extends Sprite {
     }
 
     public void reset() {
-        // Move the ball to the center of the screen
-        // Look at how this is done to Wall in Board.java for inspiration
-
-        // Reset the ball's velocity
-        // It should randomly move up left, up right, down left, or down right
-        // At first, make it move in one direction and add randomness later
     }
 
     @Override
     public void tick() {
-        // Move the ball based on vx and vy
-        // Look at Player.java for inspiration
     }
 }
