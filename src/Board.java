@@ -115,7 +115,7 @@ public class Board extends JPanel implements ActionListener, KeyListener {
         graphics.drawString("Player 2: " + score2, BOARD_WIDTH - 220, 40);
         graphics.drawString("Rally: " + rally, BOARD_WIDTH / 2 - 50, 40);
         if (matchOver) {
-            graphics.setFont(new Font("Arial", Font.BOLD, 25));
+            graphics.setFont(new Font("Arial", Font.BOLD, 40));
             graphics.drawString(winnerMessage, BOARD_WIDTH / 2 - 200, BOARD_HEIGHT / 2);
             timer.stop();
         }
